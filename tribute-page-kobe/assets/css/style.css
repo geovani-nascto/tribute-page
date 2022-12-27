@@ -42,6 +42,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
   border-top: 4px solid #4e4e4e;
+  border-bottom: 4px solid #4e4e4e;
 }
 
 main figure {
@@ -61,5 +62,43 @@ main figure figcaption {
   margin: 10px 0 5px 0;
   text-align: center;
   font-style: italic;
+}
+
+main .description {
+  margin: 20px 0;
+  padding: 0 150px;
+  text-align: center;
+}
+
+main ul {
+  margin-bottom: 20px;
+}
+
+main ul p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #252525;
+  padding: 20px;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
+
+footer p a {
+  font-weight: bold;
+  color: #ccc;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  color: #4545d4;
 }
 /*# sourceMappingURL=style.css.map */
