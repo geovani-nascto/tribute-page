@@ -91,3 +91,9 @@ footer{
         }
     }
 }
+
+@media (max-width: 425px){
+    main .description {
+        padding: 0 50px;
+    }
+}

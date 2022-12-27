@@ -101,4 +101,10 @@ footer p a:hover {
   text-decoration: underline;
   color: #4545d4;
 }
+
+@media (max-width: 425px) {
+  main .description {
+    padding: 0 50px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
